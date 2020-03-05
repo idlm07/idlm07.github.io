@@ -761,13 +761,13 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 /*    Footer    */
 
 footer{
-	padding: 80px 0;
+	padding: 15px 0;
 	background: #535353;
 }
 
 footer .copyrights{
 	float: left;
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 }
 
 footer .copyrights p{
