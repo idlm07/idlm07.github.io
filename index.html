@@ -1,306 +1,197 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel='icon' href='/img/favico/favicon32White.ico' type='image/x-icon' />
-  <title>SmileIT - Go Digital, Stay Human & Feel Loved</title>
+	<title>SmileIT - Go Digital, Stay Human & Feel Loved</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel='icon' href='/img/favico/favicon32White.ico' type='image/x-icon' />
+	<link rel="stylesheet" href="assets/css/main.css" />
 
-  <!--    Stylesheet Files    -->
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/foundation.min.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  <!--    Javascript files are placed before    -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160251599-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160251599-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'UA-160251599-1');
-</script>
+		gtag('config', 'UA-160251599-1');
+	</script>
 
-  <!--    Codigo Para Rotar Imagenes Home    -->
-  <script>
-    window.onload = function () {
-
-      function changeImage() {
-        var BackgroundImg = ["../img/backgrounds/homeBackground1.png",
-          "../img/backgrounds/homeBackground2.png",
-          "../img/backgrounds/homeBackground3.png",
-          "../img/backgrounds/homeBackground4.png"
-        ];
-        var i = Math.floor((Math.random() * 4));
-        //Fade Out - Change Image - Fade In
-        $(".hero").fadeOut("fast", function () {
-          $(this).css("background-image", 'url("' + BackgroundImg[i] + '")'); //Use your CSS here, I did this as an example.
-        }).fadeIn(2000);
-      }
-      window.setInterval(changeImage, 20000);
-    }
-  </script>
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body>
-  <!--  Start Hero Section  -->
-  <section class="hero">
-    <header>
-      <div class="row">
-        <nav class="top-bar" data-topbar role="navigation">
+<body class="is-preload landing">
+	<div id="page-wrapper">
 
-          <!--    Start Logo    -->
-          <ul class="title-area">
-            <li class="name">
-              <a href="#" class="logo">
-                <img src="img/logos/logoSmileITBlack.png" alt="" title="" />
-              </a>
-            </li>
-            <span class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></span>
-            </li>
-          </ul>
-          <!--    End Logo    -->
+		<!-- Header -->
+		<header id="header">
+			<h1 id="logo"><a href="index.html">
+					<img src="images/logos/logoSmileITWhite.png" alt="" title="" />
+				</a></h1>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<a href="#">Services</a>
+						<ul>
+							<li><a href="go-digital.html">Go Digital</a></li>
+							<li><a href="stay-human.html">Stay Human</a></li>
+							<li><a href="feel-loved.html">Feel Loved</a></li>
+							<!--<li>
+										<a href="#">Our Clients</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>-->
+						</ul>
+					</li>
+					<li><a href="our-clients.html">Our clients</a></li>
+					<li><a href="about-us.html">About us</a></li>
+					<li><a href="#" class="button primary">Login</a></li>
+				</ul>
+			</nav>
+		</header>
 
-          <!--    Start Navigation Menu    -->
-          <section class="top-bar-section" id="mean_nav">
-            <ul class="right">
-              <li><a href="#godigital">Go Digital</a></li>
-              <li><a href="#stayhuman">Stay Human</a></li>
-              <li><a href="#feelloved">Feel Loved</a></li>
-              <li><a href="#connect">Contact Us</a></li>
-            </ul>
-          </section>
-          <!--    End Navigation Menu    -->
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<header>
+					<h2>A Digital Experience.</h2>
+					<p>Keep it simple, smile.</p>
+				</header>
+				<span class="image"><img src="images/logos/iconoSmileIT.png" alt="" /></span>
+			</div>
+			<a href="#one" class="goto-next scrolly">Next</a>
+		</section>
 
-        </nav>
-      </div>
-    </header>
+		<!-- One: Go Digital -->
+		<section id="one" class="spotlight style1 bottom">
+			<span class="image fit main"><img src="images/picSmile7.png" alt="" /></span>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-12-medium">
+							<header>
+								<h2>Go Digital</h2>
+								<p>Run your business with a finger</p>
+							</header>
+						</div>
+						<div class="col-4 col-12-medium">
+							<p> A digital transformation has to face
+								too many factors of change, from the bottom to
+								top, from the mind to the facts; Our digital services
+								encourage the organization to involve their clients,
+								users, and employees pushing them to a rump up to a digital
+								mindset.</p>
+						</div>
+						<div class="col-4 col-12-medium">
+							<p>Our portfolio gives you the possibility to
+								bring your business to the internet, refactoring your
+								web site, building it from scratch; Bring your business
+								on your device; Taking care of the digital marketing...and more.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#two" class="goto-next scrolly">Next</a>
+		</section>
 
-    <!--    Start Hero Caption    -->
-    <section class="caption">
-      <div class="row">
-        <h1 class="mean_cap">A Digital Experience</hA>
-          <h2 class="sub_cap">Keep It Simple.</h2>
-          <a href="#connect" class="btn_details"><span>Contáctanos</span> <img src="img/btn_arrow.png" alt="" src=""
-              class="arrow"></a>
-      </div>
-    </section>
-    <!--    End Hero Caption    -->
+		<!-- Two: Stay Human services -->
+		<section id="two" class="spotlight style2 right">
+			<span class="image fit main"><img src="images/picSmile8.png" alt="" /></span>
+			<div class="content">
+				<header>
+					<h2>Stay Human</h2>
+					<p>Holding and transforming people's careers</p>
+				</header>
+				<p>We seriously believe that the digital era, must boost people's career and do not excluding them.
+					This service is willing to help organizations to hold and transforming people's careers, bringing
+					benefits not just to the organization even employees.
+				</p>
+				<ul class="actions">
+					<li><a href="#" class="button">Learn More</a></li>
+				</ul>
+			</div>
+			<a href="#three" class="goto-next scrolly">Next</a>
+		</section>
 
-  </section>
-  <!--  End Hero Section  -->
+		<!-- Three: Feel Loved services -->
+		<section id="three" class="spotlight style3 left">
+			<span class="image fit main bottom"><img src="images/picSmile9.png" alt="" /></span>
+			<div class="content">
+				<header>
+					<h2>Feel Loved</h2>
+					<p>Taking care of your business is taking care of you</p>
+				</header>
+				<p>Living in a remote business sometimes will be placing us in a faraway partnership. With this catalog
+					of services, we will make the distance get closer. We will be taking care of your business and you.
+				</p>
+				<ul class="actions">
+					<li><a href="#" class="button">Learn More</a></li>
+				</ul>
+			</div>
+			<a href="#four" class="goto-next scrolly">Next</a>
+		</section>
 
+		<!-- Five -->
+		<section id="five" class="wrapper style2 special fade">
+			<div class="container">
+				<header>
+					<h2>Keep in touch</h2>
+					<p>Please write your email and we will send you an email back stay in touch.</p>
+				</header>
+				<form method="post" action="#" class="cta">
+					<div class="row gtr-uniform gtr-50">
+						<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email"
+								placeholder="Your Email Address" /></div>
+						<div class="col-4 col-12-xsmall"><input type="submit" value="Send" class="fit primary" /></div>
+					</div>
+				</form>
+			</div>
+		</section>
 
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="mailto:tomemonosuncafe@smileit.com.co" class="icon solid alt fa-envelope"><span
+							class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; SmileIT. All rights reserved.</li>
+				<li>tomemonosuncafe@smileit.com.co</li>
+				<li>Bogotá, Colombia</li>
+			</ul>
+			<ul class="copyright">
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
 
-  <!--  Start Go Digital Section  -->
-  <section class="services" id="godigital">
+	</div>
 
-    <!--    Start Go Digital Services Titles    -->
-    <div class="row">
-      <h1 class="mean_title">GO DIGITAL</h1>
-      <h2 class="sub_title">Es nuestro conjunto de servicios que te llevarán a una transformación digital de acuerdo a
-        tus necesidades.</h2>
-    </div>
-    <!--    End Go Digital Services Titles    -->
-
-    <!--    Start Go Digital Services List    -->
-    <div class="row services_list">
-      <div class="small-12 medium-3 large-3 columns">
-        <img src="img/icon2.png" alt="" title="" class="serv_icon" />
-        <h2 class="title">Marca Personal</h2>
-        <p>La presencia en internet te permite entrar en el mercado digital, abrir oportunidades para nuevos negocios,
-          conocer nuevos clientes. No te puedes "dar el lujo" de hacerlo sin una marca personal.</p>
-      </div>
-
-      <div class="small-12 medium-3 large-3 columns">
-        <img src="img/icon1.png" alt="" title="" class="serv_icon" />
-        <h2 class="title">Web Site Design</h2>
-        <p>Un buen sitio en internet no solo es tu carta de presentación, sino que debe ser el espacio para que quienes
-          te buscan encuentren toda la información necesaria para establecer relaciones de confianza.</p>
-      </div>
-
-      <div class="small-12 medium-3 large-3 columns">
-        <img src="img/icon3.png" alt="" title="" class="serv_icon" />
-        <h2 class="title">Backend</h2>
-        <p>En ocasiones lo que te interesa no es la apariencia, sino la consistencia y estabilidad. Te apoyamos en el
-          desarrollo de sistemas backend o en la integracion de los mismos, dandole a tu negocio una confiabilidad en
-          sus transacciones.</p>
-      </div>
-
-      <div class="small-12 medium-3 large-3 columns">
-        <img src="img/icon4.png" alt="" title="" class="serv_icon" />
-        <h2 class="title">Mobile</h2>
-        <p>Habrás escuchado: "BYOD" - "Bring Your Own Device" Hoy mas que nunca tienes la oportunidad de llevar tu
-          negocio a la mano de tus clientes. Si lo vas a hacer hazlo simple, y hazlo bien.</p>
-      </div>
-    </div>
-    <!--    End Go Digital Services List    -->
-
-    <!--    Start Button    -->
-    <div class="btn_holder">
-      <a href="#connect" class="btn_fancy">
-        <div class="solid_layer"></div>
-        <div class="border_layer"></div>
-        <div class="text_layer">Tomemonos un Cafe</div>
-      </a>
-    </div>
-    <!--    End Button    -->
-
-  </section>
-  <!--  End Go Digital Section  -->
-
-  <!--  Start Quote Section  -->
-  <section class="quote">
-    <blockquote>
-      <p>“Locura es hacer lo mismo una y otra vez esperando obtener resultados diferentes”</p>
-      <hr />
-      <span class="author">Inspirational</span>
-    </blockquote>
-  </section>
-  <!--  End Quote Section  -->
-
-  <!--  Start Stay Human Section  -->
-  <section class="services" id="stayhuman">
-
-    <!--    Start Stay Human Services Titles    -->
-    <div class="row">
-      <h1 class="mean_title">STAY HUMAN</h1>
-      <h2 class="sub_title">La transformación digital no pretende olvidar al ser humano, sino potenciar su foco y
-        habilitar nuevas capacidades.</h2>
-    </div>
-    <!--    End Stay Human Services Titles    -->
-
-    <!--    Start Stay Human Services List    -->
-    <div class="row services_list">
-      <div class="small-12 medium-3 large-3 columns">
-        <img src="img/icon2.png" alt="" title="" class="serv_icon" />
-        <h2 class="title">Arquitectura Empresarial</h2>
-        <p>La consultoría en Arquitectura Empresarial busca llevar a la organización de un AS_IS a un TO_BE, teniendo como resultado un negocio más competitivo dentro de su campo de acción.</p>
-      </div>
-
-      <div class="small-12 medium-3 large-3 columns">
-        <img src="img/icon1.png" alt="" title="" class="serv_icon" />
-        <h2 class="title">Adopción Cloud</h2>
-        <p>La consultoría en Adopción de la nube pretende evidenciar las innumerables posibilidades al apoyarse en estos 'building blocks' con el fin de dedicarse menos tiempo en los 'fierros' y más tiempo en los asuntos de negocio.</p>
-      </div>
-
-      <div class="small-12 medium-3 large-3 columns">
-        <img src="img/icon3.png" alt="" title="" class="serv_icon" />
-        <h2 class="title">Arquitectura Personal</h2>
-        <p>Partimos desde el empleado y vamos arquitectando según prioridades una estabilidad que le permite rendir en su trabajo y apoyar los objetivos de su empresa.</p>
-      </div>
-
-      <div class="small-12 medium-3 large-3 columns">
-        <img src="img/icon3.png" alt="" title="" class="serv_icon" />
-        <h2 class="title">Trainings</h2>
-        <p>Entrenamos a la empresas en temas de tendencia y a bajo costo, con un alto grado de compromiso y autoarranque.</p>
-      </div>
-    </div>
-    <!--    End Stay Human Services List    -->
-
-    <!--    Start Button    -->
-    <div class="btn_holder">
-      <a href="#connect" class="btn_fancy">
-        <div class="solid_layer"></div>
-        <div class="border_layer"></div>
-        <div class="text_layer">Tomemonos un Cafe</div>
-      </a>
-    </div>
-    <!--    End Button    -->
-
-  </section>
-  <!--  End Stay Human Section  -->
-
-  <!--  Start Map Section    <section class="map" id="connect">
--->
-<!--  Start Stay Human Section  -->
-<section class="services" id="feelloved">
-
-  <!--    Feel Loved Services Titles    -->
-  <div class="row">
-    <h1 class="mean_title">FEEL LOVED</h1>
-    <h2 class="sub_title">La transformación digital no pretende olvidar al ser humano, sino potenciar su foco y
-      habilitar nuevas capacidades.</h2>
-  </div>
-  <!--    End Stay Human Services Titles    -->
-</section>
-
-  <!--    Start Map Shadow    -->
-  <div class="shadow"></div>
-  <!--    End Map Shadow    -->
-
-  <div id="map_container"></div>
-  </section>
-  <!--  End Map Section  -->
-
-
-
-  <!--  Start Footer Section  -->
-  <footer id="connect">
-    <div class="row">
-
-      <!--    Start Copyrights    -->
-      <div class="small-12 medium-4 large-4 columns">
-        <div class="copyrights">
-          <a href="#" class="logo">
-            <img src="img/logos/logoSmileITWhite.png" alt="" title="" />
-          </a>
-          <p>Copyright © 2020 SmileIT.</p>
-        </div>
-      </div>
-      <!--    End Copyrights    -->
-
-
-      <div class="small-12 medium-8 large-8 columns">
-        <div class="contact_details right">
-          <!--nav class="social">
-            <ul class="no-bullet">
-              <li><a href="mailto:address@dmail.com" target="_blank">Facebook</a></li>
-              <li><a href="http://instagram.com/pixelhint" target="_blank">Instagram</a></li>
-              <li><a href="http://twitter.com/pixelhint" target="_blank">Twitter</a></li>
-              <li><a href="http://plus.google.com/+Pixelhint" target="_blank">Google+</a></li>
-            </ul>
-          </nav-->
-
-          <div class="contact">
-            <div class="details">
-              <p>tomemonosuncafe@smileit.com.co</p>
-              <p>+57 315 435 0363</p>
-            </div>
-
-            <p class="adress">Bogotá, Colombia</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </footer>
-  <!--  End Footer Section  -->
-
-  <!--    Start Back To Top    -->
-  <a href="#" class="btn_fancy" id="back_top">
-    <div class="solid_layer"></div>
-    <div class="border_layer"></div>
-    <div class="text_layer"><img src="img/top_arrow.png" alt="Back to top" title="" class="top_arrow"></div>
-  </a>
-  <!--    End Back To Top    -->
-
-
-
-
-
-  <!--    Javascript Files    -->
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/touchSwipe.min.js"></script>
-  <script type="text/javascript" src="js/easing.js"></script>
-  <script type="text/javascript" src="js/foundation.min.js"></script>
-  <script type="text/javascript" src="js/foundation/foundation.topbar.js"></script>
-  <script type="text/javascript" src="js/carouFredSel.js"></script>
-  <script type="text/javascript" src="js/scrollTo.js"></script>
-  <script type="text/javascript" src="js/map.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
 
